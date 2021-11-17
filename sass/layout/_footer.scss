@@ -62,7 +62,7 @@ address {
     
     width: 44px;
     height: 44px;
-    @include centerFlex();
+    @include centeredFlex();
     // display: flex;
     // justify-content: center;
     // align-items: center;

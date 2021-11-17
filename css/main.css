@@ -127,7 +127,7 @@ span {
 }
 
 .title {
-  color: var(--primary-text-color);
+  color: #212121;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -481,7 +481,7 @@ span {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 30px;
-  background-color: var(--fourth-bg-color);
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 

@@ -167,7 +167,7 @@
 
   
 .form-chackbox-label{
-  @include centerFlex();
+  @include centeredFlex();
     // display: flex;
     // justify-content: center;
     // align-items: center;
@@ -225,7 +225,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    @include centerFlex();
+    @include centeredFlex();
     // display: flex;
     // justify-content: center;
     // align-items: center;

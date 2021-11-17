@@ -14,7 +14,7 @@
 .work__text {
     height: 70px;
 
-    @include centerFlex();
+    @include centeredFlex();
     // display: flex;
     // justify-content: center;
     // align-items: center;
