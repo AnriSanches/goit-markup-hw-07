@@ -184,7 +184,7 @@ span {
   padding: 94px 0;
 }
 
-.section-work {
+.section__work {
   padding: 0 0 94px 0;
 }
 
@@ -385,8 +385,8 @@ span {
 }
 /* ----------------------our team ----------------------*/
 
-.team__title,
-.work__title,
+.team,
+.section__title,
 .clients__title {
   font-size: 36px;
   font-style: normal;
@@ -397,7 +397,7 @@ span {
   margin-bottom: 50px;
 }
 
-.team__title2 {
+.team__title {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
@@ -405,12 +405,12 @@ span {
   text-transform: none;
 }
 
-.team__list {
+.title {
   display: flex;
 }
 
-/* -team-section- */
-.team-section {
+/* -team__section- */
+.team__section {
   background-color: var(--fourth-bg-color);
 }
 
@@ -424,7 +424,7 @@ span {
   margin-right: var(--card-set-gup);
 }
 
-.team__title2 {
+.team__title {
   margin-bottom: 10px;
   text-align: center;
 }
@@ -438,7 +438,7 @@ span {
   text-align: center;
 }
 
-.team__item .text {
+.work__text {
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
@@ -482,7 +482,7 @@ span {
 /* Елементы на всю длинну контейнера */
 /*          asdasd */
 
-/* .team__list-card > .team__item {
+/* .title-card > .team__item {
   flex-basis: (100% / 4); */
 
 /* .team__item > .title .text {
@@ -491,18 +491,18 @@ span {
 } */
 /* ----------abilities---------------- */
 
-.abilities-list {
+.abilities {
   display: flex;
 }
-.abilities-list__item {
+.abilities__item {
   width: 270px;
 }
 
-.abilities-list__item:not(:last-child) {
+.abilities__item:not(:last-child) {
   margin-right: var(--card-set-gup);
 }
 
-.abilities-list__box {
+.abilities__box {
   display: flex;
   width: 270px;
   height: 120px;
@@ -514,13 +514,13 @@ span {
   border-radius: 4px;
 }
 
-.abilities-list__title {
+.abilities__title {
   margin-bottom: 10px;
 }
 /* END ABILITIES */
 
 /* SECTION WORK */
-.work__list {
+.work {
   display: flex;
   justify-content: center;
 }
@@ -555,7 +555,7 @@ span {
   margin-bottom: 50px;
 }
 
-.clients__list {
+.clients {
   display: flex;
   /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
@@ -764,7 +764,7 @@ address {
   justify-content: center;
 }
 
-.buttons__list:not(:last-child) {
+.filter__list:not(:last-child) {
   margin-right: 9px;
 }
 

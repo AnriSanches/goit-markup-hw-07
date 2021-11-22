@@ -1,7 +1,7 @@
-.abilities-list {
+.abilities {
     display: flex;
   }
-.abilities-list__item {
+.abilities__item {
     width: 270px;
 
     &:not(:last-child) {
@@ -11,7 +11,7 @@
   
 
   
-.abilities-list__box {
+.abilities__box {
     
     width: 270px;
     height: 120px;
@@ -25,6 +25,6 @@
     border-radius: 4px;
   }
   
-.abilities-list__title {
+.abilities__title {
     margin-bottom: 10px;
   }

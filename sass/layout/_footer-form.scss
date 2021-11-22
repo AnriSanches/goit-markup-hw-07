@@ -1,7 +1,7 @@
 .footer-form{
     display: flex;
     color: rgba(255, 255, 255, 0.6);
-    background-color: var(--third-bg-color);
+    background-color: $thirdBgColor;
   }
   
 .footer-form__label{
@@ -43,7 +43,7 @@
     width: 200px;
     height: 50px;
   
-    font-weight: 700;
+    font-weight: $fw;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.06em;

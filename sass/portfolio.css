@@ -118,7 +118,7 @@ span {
   padding: 94px 0;
 }
 
-.section-work {
+.section__work {
   padding: 0 0 94px 0;
 }
 
@@ -136,8 +136,8 @@ span {
   text-transform: uppercase;
 }
 
-.team__title,
-.work__title,
+.team,
+.section__title,
 .clients__title {
   font-size: 36px;
   font-weight: 700;
@@ -147,7 +147,7 @@ span {
   margin-bottom: 50px;
 }
 
-.team__title2 {
+.team__title {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
@@ -234,19 +234,7 @@ span {
   margin-left: auto;
 }
 
-.nav__logo {
-  color: var(--primary-text-color);
-}
-
-.footer-logo, .nav__logo {
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
-.footer-logo, .nav__logo,
+.footer-logo,
 .footer-address {
   color: var(--white-color);
 }
@@ -288,6 +276,15 @@ span {
   border-radius: 2px;
 }
 
+.nav__logo, .footer-logo {
+  color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -297,7 +294,7 @@ span {
           align-items: center;
 }
 
-.nav__logo {
+.nav__logo, .footer-logo {
   margin-right: 93px;
 }
 
@@ -357,7 +354,7 @@ address {
           flex-grow: 1;
 }
 
-.footer-logo, .nav__logo {
+.footer-logo {
   display: block;
   margin-bottom: 20px;
 }
@@ -423,7 +420,7 @@ address {
   display: -ms-flexbox;
   display: flex;
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--third-bg-color);
+  background-color: #2f303a;
 }
 
 .footer-form__label {
@@ -515,7 +512,7 @@ address {
           justify-content: center;
 }
 
-.buttons__list:not(:last-child) {
+.filter__list:not(:last-child) {
   margin-right: 9px;
 }
 

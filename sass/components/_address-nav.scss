@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     color: var(--secondary-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
   
     @include fontStyle(14px, 500, 1.14, 0.02em);
     // font-size: 14px;
@@ -21,7 +23,7 @@
   
 
   
-.nav__address-list {
+.address {
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -33,11 +35,7 @@
     cursor: pointer;
   }
   
-.address__link {
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-  
+
 .address-nav {
     margin-left: auto;
   }
